@@ -1,6 +1,10 @@
 .intro{
-    height: 500px;
+    height: calc(100vh-4rem);
     width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
 }
 
 .introContent {
@@ -25,16 +29,14 @@
 
 
 .bg{
-    margin-top: 70px;
-    height: 450px;
-    width: 380px;
-    margin-right: 80px;
-    padding-left: 0px;
-    margin-left: 0%;
-    float: right;
-    border-radius: 5px;
-    box-shadow: 1px 1px 1px 1px #05161A;
+    position: absolute;
+    top: 3.5rem;
+    right: 5rem;
+    z-index: -1;
+    object-fit: cover;
+    height: 100vh;
     
+
 }
 
 

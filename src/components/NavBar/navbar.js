@@ -7,13 +7,13 @@ const Navbar=()=> {
   return (
     <nav className='navbar'>
       <img src={logo} alt='logo' className='logo' />
-      <div className="desktopMenue">
+      <div className='desktopMenue'>
           <Link className='desktopMenueListItem'>Home</Link>
           <Link className='desktopMenueListItem'>About</Link>
           <Link className='desktopMenueListItem'>Blog</Link>
           <Link className='desktopMenueListItem'>Portfolio</Link>
           <Link className='desktopMenueListItem'>Researchs</Link>
-          <Link className='desktopMenueListItem'>Experiences</Link>
+          <Link className='desktopMenueListIteml'>Experiences</Link>
       </div>
 
       

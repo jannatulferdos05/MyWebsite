@@ -5,7 +5,7 @@ import { Link } from 'react-scroll';
 
 const Intro = () => {
   return (
-    <div className="intro">
+    <section className="intro">
             <div className='introContent'>
                 <span className='hello'>Hello</span> <br/> 
                 <span className='introText'>I am <span className='introName'>Jannatul Ferdos </span> <br/> 
@@ -17,11 +17,11 @@ const Intro = () => {
                 <Link><button className='btn'>Hire Me</button></Link>
                
             </div>
-            <div className='Right'>
-            <img src={bg} alt='bg' className='bg' />
-            </div>
             
-    </div>
+            <img src={bg} alt='bg' className='bg' />
+           
+            
+    </section>
   );
 }
 
