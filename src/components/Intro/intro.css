@@ -1,0 +1,83 @@
+.intro{
+    height: 500px;
+    width: 100vw;
+}
+
+.introContent {
+    float: left;
+    height: 500px;
+    width: 690px;
+    margin-top: 130px;
+    margin-left: 80px;
+    font-size: 2.7rem;
+    font-weight: 700;
+    display: inline-block;
+}
+
+
+.Right{
+    float: right;
+    margin-left: 15px;
+    padding-left: 0px;
+    height: 500px;
+    width: 410px;
+}
+
+
+.bg{
+    margin-top: 70px;
+    height: 450px;
+    width: 380px;
+    margin-right: 80px;
+    padding-left: 0px;
+    margin-left: 0%;
+    float: right;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px #05161A;
+    
+}
+
+
+
+.hello {
+    font-size: 1.75rem;
+    font-weight: 100;
+}
+.introName {
+    color: #0F969C;
+    
+}
+  
+  .btn {
+    margin-top: 20px; /* Add some space above the button */
+    padding: 10px 20px; /* Adjust padding as needed */
+    background-color: #0C7075; /* Set button color */
+    color: white; /* Set button text color */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Add rounded corners */
+    cursor: pointer; /* Indicate clickable behavior */
+  }
+
+ .para {
+    margin-top: 10px;
+    font-size: 18px;
+    color: white;
+ }
+  
+ @media screen and (max-width:840px) {
+    .bg{
+        right: -10vw
+    }
+    .introContent {
+        font-size: 10vw;
+    }
+
+    .hello {
+        font-size: 4.5vw;
+    }
+    .para {
+        font-size: 3 vw;
+    }
+ }
+
+
